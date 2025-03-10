@@ -1,5 +1,7 @@
 # DevBlog - Fullstack Learning Project
 
+![Landing Page](_assets/landing.png)
+
 A minimalist blog application built with Next.js and FastAPI for learning fullstack development. This project focuses on providing a practical foundation for understanding the interaction between frontend and backend components.
 
 ## Tech Stack
