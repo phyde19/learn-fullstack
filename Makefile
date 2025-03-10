@@ -7,16 +7,15 @@ dev_backend:
 	@fastapi dev backend/main.py
 
 db_up:
-	@$(command) up
+	@$(command) up -d
 
 db_down:
 	@$(command) down
 
-install:
-	@cd frontend && npm i
+install_backend:
 	@pip install -r backend/requirements.txt
 
 psql:
-	@$(command) exec postgres psql -U postgres -d fullstack
+	@$(command) exec postgres psql -U postgres
 
 
